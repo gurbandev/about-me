@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
 </head>
@@ -19,16 +20,29 @@
         </div>
         <nav class="navbar navbar-dark bg-dark mb-3">
             <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- dropdown -->
+              <div class="dropdown bg-dark ">
+                <button class="btn btn-secondary dropdown-toggle bg-dark  br-hw-light" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item active" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
             </div>
         </nav>
 
           
 
         <!-- slider (moving img) -->
-        <div id="carouselExampleIndicators" class="carousel slide mb-4" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide mb-4 mt-5 " data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -52,40 +66,99 @@
         </div>
 
         <div>
-          <p class="col-12 text-center pb-5">Dushundirish</p>
+          <p class="col-12 text-center pb-5 badge text-dark fs-1">Dushundirish</p>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, earum. Incidunt perferendis inventore alias hic quibusdam ex quos excepturi perspiciatis ab, laboriosam a nam ipsum nesciunt labore accusantium voluptate maxime ducimus, sit suscipit, commodi illum dolorem blanditiis? Dolorum temporibus quisquam ullam, minus animi obcaecati! Ea blanditiis beatae error, veniam consequuntur et quas deleniti eveniet animi? Suscipit modi nisi sunt, voluptas a necessitatibus cum asperiores error voluptatem repellendus est, officia, ex at accusamus rem dolor laudantium. Velit repellendus fuga ex perferendis, illum at beatae consectetur veritatis dolore saepe cum tempora molestias nostrum! Inventore maiores neque molestias ullam asperiores ex laborum atque dignissimos exercitationem eum, voluptas, labore voluptates harum, reprehenderit incidunt? Illo consequatur, tenetur sit, ea fuga placeat molestias cumque aut quo eligendi voluptatibus veritatis aspernatur. Magni quae placeat quibusdam laborum doloribus blanditiis, molestiae nobis. Inventore magnam vel accusamus quisquam eaque, est amet ullam incidunt dolor molestiae. Itaque nemo deserunt aut similique ducimus tempore ratione repudiandae reiciendis velit hic praesentium dolor sequi iste porro, corrupti alias quas omnis dolorum reprehenderit perferendis laborum dolorem sint? Beatae, ab corrupti?</p>
         </div>
 
-        <div class="row  row-cols-2 row-cols-sm-2  row-cols-md-3 row-cols-lg-4 text-center g-0 justify-content-center">
-            <div class="card col m-5">
+        <div class="row  text-center g-0 justify-content-center">
+            <div class="card col-lg-3 col-sm-5 col-xs-5 m-3 mx-3 col-7">
                 <img src="https://elviskang.github.io/vue-material/static/images/doc/image_card.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-secondary">Go somewhere</a>
                 </div>
             </div>
     
-            <div class="card col m-5">
+            <div class="card col-lg-3 col-sm-5 col-xs-5 m-3 mx-3 col-7">
                 <img src="https://elviskang.github.io/vue-material/static/images/doc/image_card.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-secondary">Go somewhere</a>
                 </div>
             </div>
     
-            <div class="card col m-5">
+            <div class="card col-lg-3 col-sm-5 col-xs-5 m-3 mx-3 col-7">
                 <img src="https://elviskang.github.io/vue-material/static/images/doc/image_card.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-secondary">Go somewhere</a>
                 </div>
             </div>
           </div>    
+        
           
-          
+        <div class="accordion accordion-flush p-2" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="text-center pt-2 mb-4">
+                <!-- ALERT -->
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            SMS
+          </button>
+
+          <!-- Modal (alert) -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Mužikler Otur!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Ulam gurleme ahhuyet etme narmalny gurle 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
     </div>
 </body>
 </html>

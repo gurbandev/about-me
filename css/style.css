@@ -1,0 +1,7 @@
+.br-hw-light{
+    transition: 0.5s;
+}
+
+.br-hw-light:hover{
+    background-color: aquamarine;
+}
